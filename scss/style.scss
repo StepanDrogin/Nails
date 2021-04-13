@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "Century";
+    src: url("../fonts/CenturyGothicRegular/CenturyGothicRegular.eot");
+    src: url("../fonts/CenturyGothicRegular/CenturyGothicRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/CenturyGothicRegular/CenturyGothicRegular.woff") format("woff"),
+    url("../fonts/CenturyGothicRegular/CenturyGothicRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+$purple: #e1cfdb;
+$gray: #f4f4f4;
+$green: #bcceca;
+$peach: #FFE7E3;
+$black: #3c3c3c;
+
+%font-first {
+    font-family: Montserrat;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 51px;
+    letter-spacing: 0em;
+}
+%font-second {
+    font-family: Century;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;  
+}
+%font-third { 
+    font-family: Century;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;   
+}
+%font-header {
+    font-family: Century;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    font-size: 17px;
+}
+%font-number {
+    font-family: Century;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+}
+%font-text {
+    font-family: Century;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    font-size: 17px;
+}
+%font-services {
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 96px;
+    letter-spacing: 0em;
+    font-size: 80px;
+}
+%font-background {
+    font-family: 'Dancing Script';
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 144px;
+    letter-spacing: 0em;
+}
+%font-instagram {
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+}
+%font-sale {
+    font-family: Century;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+}
