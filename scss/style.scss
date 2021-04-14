@@ -94,3 +94,55 @@ $black: #3c3c3c;
     line-height: 60px;
     letter-spacing: 0em;
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+ul[class],
+ol[class] {
+  padding: 0;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+.wrapper {
+    max-width: 65%;
+    margin: auto;
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+        .nav__items {
+            display: flex;
+            .nav__item {
+                list-style: none;
+                padding: 40px;
+
+            }
+            .nav__item--decor {
+                margin-top: 25px;
+                font-size: 40px;
+            }
+        }
+        .nav__phone {
+            margin-top: 40px;
+        }
+        .nav__logo {
+            margin-top: 25px;
+        }
+    }
+}
