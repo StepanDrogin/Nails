@@ -72,6 +72,7 @@
     </div>
 </div>
 <section class="about">
+    <div class="about__background">
     <div class="wrapper">
         <h2 class="about__title">О нас</h2>
         <div class="about__lotus-line">
@@ -80,6 +81,7 @@
         <p class="about__lotus-text">_________________________________________________</p>
         </div>
         <p class="about__subtitle">У нас Вы сможете получить следующие услуги: прежде всего безопасный маникюр! Наш мастер ногтевого сервиса, прямо перед вами обработает инструменты в дезинфицирующем растворе, после чего поместит их в сухожаровой шкаф для стерилизации.</p>
+        <br>
         <p class="about__subtitle">Кроме того, мы прекрасно знаем, что самое дорогое, что есть у Вас – это время. Поэтому мы с особой важностью относимся к таймингу выполнения процедур и делаем все, чтобы в короткий срок Вы получили качественный результат по доступной цене.</p>
         <div class="about__lotus-line rotated">
             <p class="about__lotus-text">_________________________________________________</p>
@@ -99,9 +101,11 @@
             <img src="./img/about-5.png" alt="about image" class="center__img">
         </div>
     </div>
+</div>
 </section>
 <section class="services">
     <div class="wrapper">
+        <div class="services__background">
         <h2 class="services__title">Наши услуги</h2>
         <div class="services__wrapper">
         <div class="services__block pedicure">
@@ -114,9 +118,11 @@
         </div>
     </div>
     </div>
+</div>
 </section>
 <section class="follow">
     <div class="wrapper">
+        <div class="follow__background">
     <h1 class="follow__title">Следите за нами в Instagram</h1>
     <div class="follow__photos">
         <div class="follow__photo">
@@ -140,7 +146,45 @@
         <button class="follow__button">Открыть профиль Instagram &#128293;</button>
     </div>
 </div>
+</div>
 </section>
+<section class="feedback">
+    <div class="wrapper">
+    <div class="feedback__left">
+        <p class="feedback__stock">Приведи подругу -</p>
+        <h3 class="feedback__stock-title">Получи скидку -50%</h3>
+        <form class="form" action="/action_page.php">
+            <input class="input__name" type="text" placeholder="Имя" name="firstname"><br>
+            <input type="text" class="input__number" placeholder="Номер" name="number"><br>
+            <button class="button__submit">Оставить заявку</button>
+          </form>
+    </div>
+    <div class="feedback__right">
+        <img src="./img/sale-1.png" alt="nails image" class="feedback__right-img first">
+        <img src="./svg/flower-black.svg" alt="nails image" class="feedback__right-img second">
+        <img src="./svg/rose.png" alt="nails image" class="feedback__right-img third">
+        <img src="./img/sale-2.png" alt="nails image" class="feedback__right-img fourth">
+    </section>
+    <footer class="footer">
+        <div class="footer__left">
+            <div class="footer__anchors">
+                <a href="#" class="footer__anchor">Обо мне</a>
+                <a href="#" class="footer__anchor">Услуги</a>
+                <a href="#" class="footer__anchor">Отзывы</a>
+                <a href="#" class="footer__anchor">Акции</a>
+                <a href="#" class="footer__anchor">Контакты</a>
+            </div>
+            <p class="footer__copyright">2021© Manicure Nail.stv</p>
+        </div>
+        <div class="footer__right">
+            <a href="#" class="footer__link-img">
+                <img src="./svg/whatsapp.svg" alt="whatsapp logo" class="footer__link-img">
+            </a>
+            <a href="#" class="footer__link-img">
+                <img src="./svg/instagram.svg" alt="instagram logo" class="footer__link-img">
+            </a>
+        </div>
+    </footer>
     <script src="./js/app/jquery.min.js"></script>
     <script src="./js/app/slick.min.js"></script>
     <script src="./js/main.js"></script>
