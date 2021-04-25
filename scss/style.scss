@@ -494,3 +494,109 @@ form {
         }
     }
 }
+.wrapper__follow {
+    max-width: 72%;
+    margin: auto;
+}
+@media only screen and (max-width : 1366px) {
+    .wrapper .nav .nav__phone {
+        width: 250px;
+        font-size: 18px;
+        margin-top: 34px;
+    }
+    .wrapper .nav .nav__items .nav__item {
+        padding: 35px;
+    }
+    .welcome .welcome__left {
+        margin: 35px 50px 135px 0px;
+    }
+    .welcome__background {
+        background-position: 305% 5%;
+    }
+    .slick-next {
+        bottom: 55px;
+    }
+    .slick-prev {
+        top: 57px;
+    }
+    .services .services__wrapper .services__block{
+        height: 457px;
+        outline-offset: 0px;
+    }
+    .services .services__wrapper .services__block .services__subtitle {
+    margin-top: 72%;
+    margin-left: 44%;
+    }
+    .services .services__wrapper .services__block {
+        margin: 10px;
+    }
+    .follow .follow__photos .follow__button{
+        left: 358px;
+        width: 300px;
+    }
+    .follow .follow__photos .follow__photo {
+        width: 329px;
+        height: 330px;
+    }
+    .feedback .feedback__right .first{
+        left: 50%;
+    }
+    .feedback .feedback__right .second{
+        left: 60%;
+    }
+    .feedback .feedback__right .third{
+        left: 63.5%;
+    }
+    .feedback .feedback__right .fourth{
+        left: 74%;
+    }
+    .feedback {
+        background-position: 54.5% 23%;
+    }
+    .about .about__title {
+        margin-left: 42%;
+    }
+    .services .services__title {
+        margin-left: 35%;
+    }
+    }
+    @media only screen and (max-width : 1280px) {
+        .wrapper {
+            max-width: 80%;
+        }
+        .welcome__background {
+            background-position: 400% 5%;
+        }
+        .slick-next{
+            bottom: 68px;
+        }
+        .slick-prev{
+            top: 70px;
+        }
+        .services .services__wrapper .services__block {
+            margin: 43px;
+        }
+        .services .services__wrapper .services__block .services__block-title {
+            margin-left: 15%;
+        }
+        .wrapper__follow {
+            max-width: 79%;
+        }
+        .about .about__title {
+            margin-left: 43%;
+        }
+        .feedback {
+            background-position: 48.5% 23%;
+        }
+    }
+    @media only screen and (max-width : 1024px) {
+  
+    }
+    @media only screen and (max-width : 800px)  {}
+    @media only screen and (max-width : 768px)  {}
+    @media only screen and (max-width : 600px)  {}
+    @media only screen and (max-width : 533px)  {}
+    @media only screen and (max-width : 360px)  {}
+    @media only screen and (max-width : 320px)  {}
+  /*# sourceMappingURL=style.css.map */
+  

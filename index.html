@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Мастер Маникюра в Ставрополе</title>
     <link rel="stylesheet" href="./scss/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -12,13 +12,16 @@
     <link rel="stylesheet" href="scss/app/slick.min.css">
 </head>
 <body>
-    <header>
-        <div class="wrapper">
+<div class="wrapper">
+        <header class="header">
         <nav class="nav">
             <div class="nav__logo">
                 <a href="" class="nav__logo-link">
                 <img src="./svg/logo.svg" alt="logo" class="nav__logo-img">
                 </a>
+                <div class="menu-burger__header">
+                    <span></span>
+                </div>
             </div>
                 <ul class="nav__items">
                     <a href="" class="nav__link">
@@ -40,11 +43,11 @@
                     <a href="" class="nav__link">
                     <li class="nav__item">Контакты</li>
                     </a>
+                    <a href="tel:+79183778461" class="nav__phone">+7 (918) 377-84-61</a>
                 </ul>
-                <a href="tel:+79183778461" class="nav__phone">+7 (918) 377-84-61</a>
         </nav>
-    </div>
     </header>
+</div>
     <div class="welcome__background">
     <div class="wrapper">
         <div class="welcome">
@@ -121,7 +124,7 @@
 </div>
 </section>
 <section class="follow">
-    <div class="wrapper">
+    <div class="wrapper__follow">
         <div class="follow__background">
     <h1 class="follow__title">Следите за нами в Instagram</h1>
     <div class="follow__photos">
@@ -153,11 +156,13 @@
     <div class="feedback__left">
         <p class="feedback__stock">Приведи подругу -</p>
         <h3 class="feedback__stock-title">Получи скидку -50%</h3>
-        <form class="form" action="/action_page.php">
-            <input class="input__name" type="text" placeholder="Имя" name="firstname"><br>
-            <input type="text" class="input__number" placeholder="Номер" name="number"><br>
-            <button class="button__submit">Оставить заявку</button>
+        <form class="form"  method="POST"
+        action="https://formfor.site/send/NLWDE6L6sjdmLcUwFd5y82JmZJKCEv">
+            <input class="input__name" type="text" name="name" id="name" placeholder="Имя" name="firstname"><br>
+            <input type="phone" class="input__number" name="phone" id="phone" placeholder="Номер" name="number"><br>
+            <button type="submit" class="button__submit" id="sendData">Оставить заявку</button>
           </form>
+          <div id="errorMess" class="error"></div>
     </div>
     <div class="feedback__right">
         <img src="./img/sale-1.png" alt="nails image" class="feedback__right-img first">
