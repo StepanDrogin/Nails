@@ -14,15 +14,16 @@
 <body>
 <div class="wrapper">
         <header class="header">
+            <div class="menu-burger__header">
+                <span></span>
+            </div>
         <nav class="nav">
             <div class="nav__logo">
                 <a href="" class="nav__logo-link">
                 <img src="./svg/logo.svg" alt="logo" class="nav__logo-img">
                 </a>
-                <div class="menu-burger__header">
-                    <span></span>
-                </div>
             </div>
+            <div class="header__nav">
                 <ul class="nav__items">
                     <a href="" class="nav__link">
                     <li class="nav__item">Обо мне</li>
@@ -43,8 +44,11 @@
                     <a href="" class="nav__link">
                     <li class="nav__item">Контакты</li>
                     </a>
+                    <li class="nav__item">
                     <a href="tel:+79183778461" class="nav__phone">+7 (918) 377-84-61</a>
+                </li>
                 </ul>
+            </div>
         </nav>
     </header>
 </div>
@@ -162,7 +166,6 @@
             <input type="phone" class="input__number" name="phone" id="phone" placeholder="Номер" name="number"><br>
             <button type="submit" class="button__submit" id="sendData">Оставить заявку</button>
           </form>
-          <div id="errorMess" class="error"></div>
     </div>
     <div class="feedback__right">
         <img src="./img/sale-1.png" alt="nails image" class="feedback__right-img first">
