@@ -590,6 +590,12 @@ form {
         }
     }
     @media only screen and (max-width : 1024px) {
+        .header__nav.open-menu {
+            top: 114px;
+        }
+        .header {
+            margin-top: -36px;
+        }
         .feedback .feedback__right .first{
             height: 350px;
             width: 310px;
@@ -674,7 +680,6 @@ form {
         }
         .header__nav.open-menu {
             left: 0;
-            top: 150px;
         }
         .wrapper .nav .nav__items {
             display: flex;
@@ -723,8 +728,12 @@ form {
         }
     }
     @media only screen and (max-width : 768px)  {
-/*         .slick-next {bottom: 35px;}
-        .slick-prev {top: 42px;} */
+        .header__nav.open-menu {
+            top: 114px;
+        }
+        .header {
+            margin-top: -36px;
+        }
         .welcome .welcome__left {
             margin: 84px 0px 0px 0px;
         }
@@ -825,6 +834,12 @@ form {
         }
     }
     @media only screen and (max-width : 533px)  {
+        .header__nav.open-menu {
+            top: 114px;
+        }
+        .header {
+            margin-top: -36px;
+        }
         .services .services__wrapper {
             flex-direction: column;
         }
@@ -878,6 +893,12 @@ form {
         }
     }
     @media only screen and (max-width : 360px)  {
+        .header__nav.open-menu {
+            top: 114px;
+        }
+        .header {
+            margin-top: -36px;
+        }
         .welcome__background {
             height: 860px;
         }
@@ -910,7 +931,7 @@ form {
             max-width: 100%;
         }
         .follow .follow__photos .follow__button {
-            left: 22px;
+            left: 16px;
         }
         .feedback .feedback__left .feedback__stock {
             margin-left: 0px;
