@@ -824,8 +824,203 @@ form {
             display: none;
         }
     }
-    @media only screen and (max-width : 533px)  {}
-    @media only screen and (max-width : 360px)  {}
-    @media only screen and (max-width : 320px)  {}
+    @media only screen and (max-width : 533px)  {
+        .services .services__wrapper {
+            flex-direction: column;
+        }
+        .services .services__wrapper .services__block {
+            width: 425px;
+            height: 458px;
+            margin: 10px;
+        }
+        .services .services__wrapper .services__block .services__block-title {
+            margin-left: 21%;
+        }
+        .services .services__wrapper .services__block .services__subtitle {
+            margin: 66% 0 0 23%;
+        }
+        .follow .follow__background {
+            background-image: none;
+        }
+        .follow .follow__photos .follow__button {
+            left: 57px;
+        }
+        .feedback .feedback__right .first {
+            height: 260px;
+            width: 220px;
+            left: 7%;
+            top: 63%;
+        }
+        .feedback .feedback__right .second {
+            height: 260px;
+            width: 220px;
+            left: 31%;
+            top: 67%;
+        }
+        .feedback .feedback__right .third {
+            height: 260px;
+            width: 220px;
+            left: 37.5%;
+            top: 54%;
+        }
+        .feedback .feedback__right .fourth {
+            height: 260px;
+            width: 220px;
+            left: 54%;
+            top: 64%;
+        }
+        .feedback .feedback__left {
+            margin-top: 40%;
+        }
+        .feedback {
+            background-position: 16.5% 14%;
+            height: 1351px;
+        }
+    }
+    @media only screen and (max-width : 360px)  {
+        .welcome__background {
+            height: 860px;
+        }
+        .menu-burger__header {
+            left: 88%;
+        }
+        .about .about__title {
+            margin-left: 27%;
+        }
+        .about {
+            background-image: none;
+            .about__background {
+                background-image: none;
+            }
+        }
+        .services .services__wrapper .services__block {
+            width: 290px;
+            height: 316px;
+            margin: 15px;
+            padding: 0px 70px 0px 0px;
+        }
+        .services .services__wrapper .services__block .services__block-title {
+            margin-left: 4%;
+        }
+        .follow .follow__photos .follow__photo {
+            height: 300px;
+            width: 310px;
+        }
+        .wrapper__follow {
+            max-width: 100%;
+        }
+        .follow .follow__photos .follow__button {
+            left: 22px;
+        }
+        .feedback .feedback__left .feedback__stock {
+            margin-left: 0px;
+        }
+        .feedback {
+            background-position: 99.5% 12%;
+        }
+        .feedback .feedback__right .first {
+            left: 2%;
+            top: 65%;
+        }
+        .feedback .feedback__right .second {
+            left: 23%;
+            top: 77%;
+        }
+        .feedback .feedback__right .third {
+            left: 19.5%;
+            top: 54%;
+        }
+        .feedback .feedback__right .fourth {
+            left: 33%;
+            top: 64%;
+        }
+        .footer {
+            padding: 5px;
+        }
+        .feedback .feedback__left {
+            margin-left: 0px;
+        }
+        .footer .footer__left .footer__anchors .footer__anchor {
+            margin: 10px;
+            border-bottom: 1px solid #E1CFDB;
+            border-radius: 2px;
+        }
+        .footer .footer__right {
+            margin-top: 10px;
+            .footer__link-img {
+                margin: 10px 5px;
+            }
+        }
+    }
+    @media only screen and (max-width : 320px)  {
+        .welcome__background {
+            height: 936px;
+        }
+        .services .services__wrapper .services__block {
+            width: 230px;
+            height: 251px;
+        }
+        .services .services__wrapper .services__block .services__block-title {
+            font-size: 60px;
+        }
+        .services .services__wrapper .services__block .services__subtitle {
+            margin: 56% 0 0 10%;
+        }
+        .follow .follow__photos .follow__photo {
+            height: 252px;
+            width: 270px;
+        }
+        .follow .follow__title {
+            margin-left: 9%;
+        }
+        .follow .follow__photos .follow__button {
+            left: 38px;
+            width: 220px;
+        }
+        .form {
+            width: 250px;
+            height: 250px;
+        }
+        .button__submit {
+            margin: 24px 22px;
+            width: 197px;
+        }
+        input {
+            margin: 27px 11% 15px;
+        }
+        .feedback {
+            background-position: 19.5% 16%;
+        }
+        .feedback .feedback__left .feedback__stock {
+            margin-left: 35px;
+        }
+        .feedback .feedback__left .feedback__stock-title {
+            margin-left: 35px;
+        }
+        .feedback .feedback__right .first {
+            left: 6%;
+            top: 65%;
+            width: 160px;
+            height: 195px;
+        }
+        .feedback .feedback__right .second {
+            left: 23%;
+            top: 58%;
+            width: 160px;
+            height: 195px;
+        }
+        .feedback .feedback__right .third {
+            left: 13.5%;
+            top: 84%;
+            width: 160px;
+            height: 195px;
+        }
+        .feedback .feedback__right .fourth {
+            left: 43%;
+            top: 77%;
+            width: 160px;
+            height: 195px;
+        }
+    }
   /*# sourceMappingURL=style.css.map */
   
