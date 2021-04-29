@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,28 +28,28 @@
             </div>
             <div class="header__nav">
                 <ul class="nav__items">
-                    <a href="#anchor_about" class="nav__link">
-                    <li class="nav__item">Обо мне</li>
-                    </a>
-                    <p class="nav__item--decor">|</p>
-                    <a href="#services__anchor" class="nav__link">
-                    <li class="nav__item">Услуги</li>
-                    </a>
-                    <p class="nav__item--decor">|</p>
-                    <a href="#inst_anchor" class="nav__link">
-                    <li class="nav__item">Отзывы</li>
-                    </a>
-                    <p class="nav__item--decor">|</p>
-                    <a href="#feedback_anchor" class="nav__link">
-                    <li class="nav__item">Акции</li>
-                    </a>
-                    <p class="nav__item--decor">|</p>
-                    <a href="#footer" class="nav__link">
-                    <li class="nav__item">Контакты</li>
-                    </a>
-                    <li class="nav__item">
-                    <a href="tel:+79183778461" class="nav__phone">+7(962)449-41-41</a>
+                <li class="nav__item">
+                    <a href="#anchor_about" class="nav__link">Обо мне</a>
                 </li>
+                    <p class="nav__item--decor">|</p>
+                    <li class="nav__item">
+                        <a href="#anchor_about" class="nav__link">Услуги</a>
+                    </li>
+                    <p class="nav__item--decor">|</p>
+                    <li class="nav__item">
+                        <a href="#anchor_about" class="nav__link">Отзывы</a>
+                    </li>
+                    <p class="nav__item--decor">|</p>
+                    <li class="nav__item">
+                        <a href="#anchor_about" class="nav__link">Акции</a>
+                    </li>
+                    <p class="nav__item--decor">|</p>
+                    <li class="nav__item">
+                        <a href="#anchor_about" class="nav__link">Контакты</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="tel:+79183778461" class="nav__phone">+7(962)449-41-41</a>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -66,8 +66,10 @@
             <p class="welcome__left-subtitle check">Гарантия на работу, без доплат</p>
             <p class="welcome__left-subtitle check">Красивый маникюр</p>
             <a href="#feedback_anchor">
-            <button class="welcome__left-appointment">Записаться к нам</button>
-            </a>
+            <button class="welcome__left-appointment">
+                <a class="button__white" href="#feedback_anchor">Записаться к нам
+                </a>
+            </button>
         </div>
         <div class="welcome__right">
             <div class="welcome__right-img1">
@@ -135,7 +137,7 @@
 <section class="follow" data-aos="zoom-in">
     <div class="wrapper__follow" id="inst_anchor">
         <div class="follow__background">
-    <h1 class="follow__title">Следите за нами в Instagram</h1>
+    <h2 class="follow__title">Следите за нами в Instagram</h2>
     <div class="follow__photos">
         <div class="follow__photo">
             <img src="./img/follow-1.png" alt="photo manicure" class="follow__photo">
@@ -155,9 +157,11 @@
         <div class="follow__photo">
                 <img src="./img/follow-6.png" alt="photo manicure" class="follow__photo">
         </div>
-        <a href="https://www.instagram.com/manicur_nail.stv/">
-        <button class="follow__button">Открыть профиль Instagram &#128293;</button>
-    </a>
+        <button class="follow__button">
+            <a class="button__white" href="https://www.instagram.com/manicur_nail.stv/">
+            Открыть профиль Instagram &#128293;
+        </a>
+        </button>
     </div>
 </div>
 </div>
@@ -169,8 +173,8 @@
         <h3 class="feedback__stock-title" id="feedback_anchor">Получи скидку -50%</h3>
         <form class="form"  method="POST"
         action="https://formfor.site/send/NLWDE6L6sjdmLcUwFd5y82JmZJKCEv">
-            <input class="input__name" type="text" name="name" id="name" placeholder="Имя" name="firstname"><br>
-            <input type="phone" class="input__number" name="phone" id="phone" placeholder="Номер" name="number"><br>
+            <input value="" class="input__name" type="text" name="name" id="name" placeholder="Имя" name="firstname"><br>
+            <input value="" type="phone" class="input__number" name="phone" id="phone" placeholder="Номер" name="number"><br>
             <button type="submit" class="button__submit" id="sendData">Оставить заявку</button>
           </form>
     </div>
@@ -179,6 +183,7 @@
         <img src="./svg/flower-black.svg" alt="nails image" class="feedback__right-img second">
         <img src="./svg/rose.png" alt="nails image" class="feedback__right-img third">
         <img src="./img/sale-2.png" alt="nails image" class="feedback__right-img fourth">
+        </div>
     </section>
     <footer class="footer" id="footer">
         <div class="footer__left">
@@ -195,7 +200,7 @@
             <a href="https://wa.me/79624494111" class="footer__link-img">
                 <img src="./svg/whatsapp.svg" alt="whatsapp logo" class="footer__link-img">
             </a>
-            <a href="https://www.instagram.com/manicur_nail.stv/"class="footer__link-img" target="_blank">
+            <a href="https://www.instagram.com/manicur_nail.stv/" class="footer__link-img" target="_blank">
                 <img src="./svg/instagram.svg" alt="instagram logo" class="footer__link-img">
             </a>
         </div>
