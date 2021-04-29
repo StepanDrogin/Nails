@@ -7,9 +7,12 @@
     <title>Мастер Маникюра в Ставрополе</title>
     <link rel="stylesheet" href="./scss/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="scss/app/slick.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 <div class="wrapper">
@@ -25,23 +28,23 @@
             </div>
             <div class="header__nav">
                 <ul class="nav__items">
-                    <a href="" class="nav__link">
+                    <a href="#anchor_about" class="nav__link">
                     <li class="nav__item">Обо мне</li>
                     </a>
                     <p class="nav__item--decor">|</p>
-                    <a href="" class="nav__link">
+                    <a href="#services__anchor" class="nav__link">
                     <li class="nav__item">Услуги</li>
                     </a>
                     <p class="nav__item--decor">|</p>
-                    <a href="" class="nav__link">
+                    <a href="#inst_anchor" class="nav__link">
                     <li class="nav__item">Отзывы</li>
                     </a>
                     <p class="nav__item--decor">|</p>
-                    <a href="" class="nav__link">
+                    <a href="#feedback_anchor" class="nav__link">
                     <li class="nav__item">Акции</li>
                     </a>
                     <p class="nav__item--decor">|</p>
-                    <a href="" class="nav__link">
+                    <a href="#footer" class="nav__link">
                     <li class="nav__item">Контакты</li>
                     </a>
                     <li class="nav__item">
@@ -62,7 +65,9 @@
             <p class="welcome__left-subtitle check">Восхитительный смарт-педикюр</p>
             <p class="welcome__left-subtitle check">Гарантия на работу, без доплат</p>
             <p class="welcome__left-subtitle check">Красивый маникюр</p>
+            <a href="#feedback_anchor">
             <button class="welcome__left-appointment">Записаться к нам</button>
+            </a>
         </div>
         <div class="welcome__right">
             <div class="welcome__right-img1">
@@ -78,10 +83,10 @@
     </div>
     </div>
 </div>
-<section class="about">
+<section class="about" data-aos="flip-left">
     <div class="about__background">
     <div class="wrapper">
-        <h2 class="about__title">О нас</h2>
+        <h2 class="about__title" id="anchor_about">О нас</h2>
         <div class="about__lotus-line">
             <p class="about__lotus-text">_________________________________________________</p>
         <img class="about__lotus" src="./svg/lotus.svg" alt="lotus">
@@ -113,13 +118,13 @@
 <section class="services">
     <div class="wrapper">
         <div class="services__background">
-        <h2 class="services__title">Наши услуги</h2>
+        <h2 class="services__title" id="services__anchor">Наши услуги</h2>
         <div class="services__wrapper">
-        <div class="services__block pedicure">
+        <div class="services__block pedicure" data-aos="zoom-in">
             <h3 class="services__block-title">Pedicure</h3>
             <p class="services__subtitle">Смарт-педикюр</p>
         </div>
-        <div class="services__block manicure">
+        <div class="services__block manicure" data-aos="zoom-in">
             <h3 class="services__block-title">Manicure</h3>
             <p class="services__subtitle">Маникюр</p>
         </div>
@@ -127,8 +132,8 @@
     </div>
 </div>
 </section>
-<section class="follow">
-    <div class="wrapper__follow">
+<section class="follow" data-aos="zoom-in">
+    <div class="wrapper__follow" id="inst_anchor">
         <div class="follow__background">
     <h1 class="follow__title">Следите за нами в Instagram</h1>
     <div class="follow__photos">
@@ -155,11 +160,11 @@
 </div>
 </div>
 </section>
-<section class="feedback">
+<section class="feedback" data-aos="zoom-in">
     <div class="wrapper">
     <div class="feedback__left">
         <p class="feedback__stock">Приведи подругу -</p>
-        <h3 class="feedback__stock-title">Получи скидку -50%</h3>
+        <h3 class="feedback__stock-title" id="feedback_anchor">Получи скидку -50%</h3>
         <form class="form"  method="POST"
         action="https://formfor.site/send/NLWDE6L6sjdmLcUwFd5y82JmZJKCEv">
             <input class="input__name" type="text" name="name" id="name" placeholder="Имя" name="firstname"><br>
@@ -173,7 +178,7 @@
         <img src="./svg/rose.png" alt="nails image" class="feedback__right-img third">
         <img src="./img/sale-2.png" alt="nails image" class="feedback__right-img fourth">
     </section>
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <div class="footer__left">
             <div class="footer__anchors">
                 <a href="#" class="footer__anchor">Обо мне</a>
@@ -195,6 +200,7 @@
     </footer>
     <script src="./js/app/jquery.min.js"></script>
     <script src="./js/app/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>
