@@ -98,6 +98,11 @@ dd {
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
 a {
   text-decoration: none;
 }
